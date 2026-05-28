@@ -28,7 +28,7 @@ This project uses `uv` for extremely fast Python package management and environm
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/SIBI_AI.git
+   git clone https://github.com/Alfian-DA-ML/SIBI-s-AI.git
    cd SIBI_AI
    ```
 
