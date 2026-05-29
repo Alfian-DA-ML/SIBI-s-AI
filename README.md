@@ -2,6 +2,8 @@
 
 <img src="SIBI_ sample_alphabet.png" alt="SIBI AI in Action" width="700">
 
+[SIBI dataset](https://www.kaggle.com/datasets/alvinbintang/sibi-dataset)
+
 **SIBI's AI** is a real-time computer vision application designed to recognize the Indonesian Sign Language (Sistem Isyarat Bahasa Indonesia / SIBI) alphabet. It accurately classifies static alphabet hand signs from A to Y (excluding dynamic signs like J and Z) directly from a webcam feed.
 
 ---
@@ -20,7 +22,7 @@
 This project uses `uv` for extremely fast Python package management and environment isolation.
 
 ### Prerequisites
-* Python 3.10 or higher.
+* Python 3.10.
 * Web camera.
 * [uv](https://github.com/astral-sh/uv) installed on your system.
 
