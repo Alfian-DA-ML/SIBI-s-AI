@@ -40,7 +40,7 @@ This project uses `uv` for extremely fast Python package management and environm
    uv sync
    ```
 
-3. **Activate the virtual environment (Optional but recommended):**
+3. **Activate the virtual environment:**
    * **Windows:**
      ```bash
      .venv\Scripts\activate
