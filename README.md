@@ -88,11 +88,11 @@ The system operates on a continuous loop, processing video frames through two ma
 
 ## Model Architecture: SIBINet
 
-At the core of SIBI's AI is **SIBINet**, a custom ResNet-style lightweight CNN designed from scratch to balance high accuracy with low computational cost. 
+At the core of SIBI's AI is **SIBINet**, a custom lightweight CNN designed from scratch to balance high accuracy with low computational cost. 
 
 <img src="Flowchart/CNN_SIBINet_Architecture_eng.png" alt="SIBINet Architecture" width="200">
 
-* **Architecture Style:** ResNet-Lite
+* **Architecture:** CNN 
 * **Input Size:** 128x128 RGB
 * **Core Blocks:** Utilizes Depthwise Separable Convolutions (DSConv) inside custom ResLiteBlock structures to drastically reduce the parameter count (~2.1M parameters).
 * **Output:** 24 classes (A-Y, without J/Z).
